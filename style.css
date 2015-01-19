@@ -8,22 +8,28 @@ html, body, h1, h2, p{
 
 h1{
 	font-size: 25px;
-	font-weight: 300;
-	padding-bottom: 30px;
+	font-weight: 400;
+	padding-bottom: 40px;
 }
 
-h2, p{
+h2{
 	font-size: 15px;
 	font-weight: 100;
 
 }
 
+p{
+	font-size: 15px;
+	font-weight: 100;
+	padding-bottom: 10px;
+}
+
+
 .row{
-	padding-bottom: 50px;
-	padding-top: 50px;
+	padding-bottom: 70px;
+	padding-top: 70px;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
-	
 }
 
 .first{
@@ -44,10 +50,25 @@ h2, p{
 
 }
 
+.bild{
+	background-image: url(Bild.jpg);
+	background-repeat:no-repeat;
+    background-position:0px 100%;
+	height: 300px;
+
+}
+
 .third{
 	background-color: #d7f9f2;
 	color: #175443;
 
+}
+
+.handy{
+	background-image: url(Handy.png);
+	background-repeat:no-repeat;
+    background-position:0px 100%;
+    height: 460px;
 }
 
 .footer{
@@ -56,33 +77,7 @@ h2, p{
 
 }
 
-.tabelle{
-	padding-bottom:20px;
 
-}
-
-.einr{
-	margin-left: 62.5%;
-
-}
-
-.bild{
-	background-color: #ddd;
-	width: 50%;
-
-}
-
-.left{
-	width: 320px;
-	float: right;
-
-}
-
-.right{
-	width: 320px;
-	float: left;
-
-}
 
 /*  SECTIONS  */
 .section {
@@ -112,29 +107,24 @@ h2, p{
 
 /*  GRID OF THREE  */
 
-.span_8_of_8 {
-	width: 100%;
+
+.span_6_of_6 {
+	width: 100%; min-height: 1px
 }
-.span_7_of_8 {
-	width: 87.5%;
+.span_5_of_6 {
+	width: 83.333333335%; min-height: 1px
 }
-.span_6_of_8 {
-	width: 75%;
+.span_4_of_6 {
+	width: 66.666666668%; min-height: 1px
 }
-.span_5_of_8 {
-	width: 62.5%;
+.span_3_of_6 {
+	width: 50%; min-height: 1px
 }
-.span_4_of_8 {
-	width: 50%;
+.span_2_of_6 {
+	width: 33.333333334%; min-height: 1px
 }
-.span_3_of_8 {
-	width: 37.5%;
-}
-.span_2_of_8 {
-	width: 25%;
-}
-.span_1_of_8 {
-	width: 12.5%;
+.span_1_of_6 {
+	width: 16.666666667%; min-height: 1px
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
