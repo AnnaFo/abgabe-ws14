@@ -5,10 +5,11 @@ html, body, h1, h2, p{
 	font-family: 'Geogrotesque';
 }
 
+
 h1{
 	font-size: 25px;
 	font-weight: 300;
-	padding-bottom: 10px;
+	padding-bottom: 30px;
 }
 
 h2, p{
@@ -17,10 +18,24 @@ h2, p{
 
 }
 
-.first{
-	background-color: #f2f2f2;
-	color: #175443;
+.row{
+	padding-bottom: 50px;
+	padding-top: 50px;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+	
+}
 
+.first{
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+	padding-top: 70vh;
+	background-image: url(Bild.jpg);
+	background-repeat:no-repeat;
+    background-position:0px 100%;
+	background-color: #f2f2f2;
+	color: #fff;
+	height:30vh;
 }
 
 .second{
@@ -38,4 +53,94 @@ h2, p{
 .footer{
 	background-color: #17544e;
 	color: #fff;
+
 }
+
+.tabelle{
+	padding-bottom:20px;
+
+}
+
+.einr{
+	margin-left: 62.5%;
+
+}
+
+.bild{
+	background-color: #ddd;
+	width: 50%;
+
+}
+
+.left{
+	width: 320px;
+	float: right;
+
+}
+
+.right{
+	width: 320px;
+	float: left;
+
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+
+.span_8_of_8 {
+	width: 100%;
+}
+.span_7_of_8 {
+	width: 87.5%;
+}
+.span_6_of_8 {
+	width: 75%;
+}
+.span_5_of_8 {
+	width: 62.5%;
+}
+.span_4_of_8 {
+	width: 50%;
+}
+.span_3_of_8 {
+	width: 37.5%;
+}
+.span_2_of_8 {
+	width: 25%;
+}
+.span_1_of_8 {
+	width: 12.5%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { margin: 1% 0 1% 0%;}
+	.span_8_of_8, .span_7_of_8, .span_6_of_8,.span_5_of_8, .span_4_of_8, .span_3_of_8,.span_2_of_8, .span_1_of_8,{ width: 100%; }
+}
+
