@@ -22,12 +22,18 @@ p{
 	font-size: 15px;
 	font-weight: 100;
 	padding-bottom: 10px;
+	color: #ccc;
+}
+p:hover{
+	cursor: pointer;
+	color: #fff;
+
 }
 
 
 .row{
-	padding-bottom: 70px;
-	padding-top: 70px;
+	padding-bottom: 80px;
+	padding-top: 80px;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -35,13 +41,27 @@ p{
 .first{
 	padding-left: 12.5%;
 	padding-right: 12.5%;
-	padding-top: 70vh;
+	padding-top: 55vh;
 	background-image: url(Bild.jpg);
 	background-repeat:no-repeat;
     background-position:0px 100%;
 	background-color: #f2f2f2;
 	color: #fff;
-	height:30vh;
+	height:45vh;
+}
+ .maus{
+ 	padding-top: 20px;
+	text-decoration:underline;
+}
+
+ .maus:hover{
+	cursor: pointer;
+	text-decoration:underline;
+}
+
+ .maus:click{
+	cursor: pointer;
+	text-decoration:underline;
 }
 
 .second{
@@ -53,7 +73,7 @@ p{
 .bild{
 	background-image: url(Bild.jpg);
 	background-repeat:no-repeat;
-    background-position:0px 100%;
+	background-size: 100%;
 	height: 300px;
 
 }
@@ -73,7 +93,8 @@ p{
 
 .footer{
 	background-color: #17544e;
-	color: #fff;
+		color: #fff;
+
 
 }
 
