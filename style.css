@@ -7,19 +7,19 @@ html, body, h1, h2, p{
 
 
 h1{
-	font-size: 25px;
+	font-size: 35px;
 	font-weight: 400;
-	padding-bottom: 40px;
+	padding-bottom: 60px;
 }
 
 h2{
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 100;
 
 }
 
 p{
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 100;
 	padding-bottom: 10px;
 	color: #ccc;
@@ -28,12 +28,18 @@ p:hover{
 	cursor: pointer;
 	color: #fff;
 
+
+}
+
+a, a:link, a:visited, a:hover, a:active, a:focus{
+	color: inherit;
 }
 
 
+
 .row{
-	padding-bottom: 80px;
-	padding-top: 80px;
+	padding-bottom: 100px;
+	padding-top: 100px;
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
@@ -41,13 +47,14 @@ p:hover{
 .first{
 	padding-left: 12.5%;
 	padding-right: 12.5%;
-	padding-top: 55vh;
-	background-image: url(Bild.jpg);
+	padding-top: 120vh;
+	background-image: url(IMG_4716_bearb.jpg);
 	background-repeat:no-repeat;
-    background-position:0px 100%;
+    background-position:50px 50%;
+    background-height: 100%;
 	background-color: #f2f2f2;
-	color: #fff;
-	height:45vh;
+	color: #000;
+	height:55vh;
 }
  .maus{
  	padding-top: 20px;
@@ -70,29 +77,45 @@ p:hover{
 
 }
 
-.bild{
+.video{
 	background-image: url(Bild.jpg);
 	background-repeat:no-repeat;
 	background-size: 100%;
-	height: 300px;
+	height: 500px;
 
 }
 
 .third{
-	background-color: #d7f9f2;
+	background-color: #fff;
 	color: #175443;
 
 }
 
-.handy{
-	background-image: url(Handy.png);
+.prototyp{
+	background-image: url(prototyp.png);
 	background-repeat:no-repeat;
-    background-position:0px 100%;
-    height: 460px;
+    background-position:50% 0%;
+    background-size: 66%;
+    height: 165vh;
+}
+
+.protoEins{
+height: 50vh;
+
+}
+
+.protoZwei{
+height: 8vh;
+	
+}
+
+.protoDrei{
+height: 100vh;
+	
 }
 
 .footer{
-	background-color: #17544e;
+	background-color: #222;
 		color: #fff;
 
 
@@ -146,6 +169,10 @@ p:hover{
 }
 .span_1_of_6 {
 	width: 16.666666667%; min-height: 1px
+}
+
+.red {
+	background: red;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
