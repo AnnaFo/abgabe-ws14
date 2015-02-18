@@ -7,19 +7,19 @@ html, body, h1, h2, p{
 
 
 h1{
-	font-size: 35px;
+	font-size: 20px;
 	font-weight: 400;
 	padding-bottom: 60px;
 }
 
 h2{
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 100;
 
 }
 
 p{
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 100;
 	padding-bottom: 10px;
 	color: #ccc;
@@ -47,14 +47,14 @@ a, a:link, a:visited, a:hover, a:active, a:focus{
 .first{
 	padding-left: 12.5%;
 	padding-right: 12.5%;
-	padding-top: 120vh;
+	padding-top: 50vh;
 	background-image: url(IMG_4716_bearb.jpg);
 	background-repeat:no-repeat;
-    background-position:50px 50%;
-    background-height: 100%;
+    background-position: 0px 50%;
+    background-height:100%;
 	background-color: #f2f2f2;
 	color: #000;
-	height:55vh;
+	height:50vh;
 }
  .maus{
  	padding-top: 20px;
@@ -81,7 +81,7 @@ a, a:link, a:visited, a:hover, a:active, a:focus{
 	background-image: url(Bild.jpg);
 	background-repeat:no-repeat;
 	background-size: 100%;
-	height: 500px;
+	height: 300px;
 
 }
 
@@ -95,22 +95,22 @@ a, a:link, a:visited, a:hover, a:active, a:focus{
 	background-image: url(prototyp.png);
 	background-repeat:no-repeat;
     background-position:50% 0%;
-    background-size: 66%;
-    height: 165vh;
+    background-size: 60%;
+    height: 90vh;
 }
 
 .protoEins{
-height: 50vh;
+height: 25vh;
 
 }
 
 .protoZwei{
-height: 8vh;
+height: 3vh;
 	
 }
 
 .protoDrei{
-height: 100vh;
+height: 55vh;
 	
 }
 
